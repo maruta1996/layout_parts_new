@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+/* テーブル全体 */
+.q3__content__table {
+  width: 100%;
+  table-layout: fixed;
+}
+/* セル全体 */
+.q3__content__table tr th, .q3__content__table tr td {
+  padding: 10px 0;
+  border: 1px solid #dedede;
+  text-align: center;
+}
+/* 見出しと日付 */
+.q3__content__table tr th, .q3__content__table tr td:first-child{
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+  background-color: #2244aa;
+}
+/* 日付の二番目と四番目 */
+.q3__content__table tr:nth-child(odd) {
+  background-color: #ecf1f2;
+}
+/* 日付の四番目の下の破線 */
+.q3__content__table tr:nth-child(5) {
+  border-bottom: 2px dashed #000;
+}
 /* 回答はここに書いてね */
