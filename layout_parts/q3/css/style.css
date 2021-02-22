@@ -24,7 +24,7 @@
   background-color: #ecf1f2;
 }
 /* 日付の四番目の下の破線 */
-.q3__content__table tr:nth-child(5) {
-  border-bottom: 2px dashed #000;
+.q3__content__table tr:last-child {
+  border-top: 2px dashed #000;
 }
 /* 回答はここに書いてね */
