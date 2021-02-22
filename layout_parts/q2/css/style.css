@@ -12,14 +12,14 @@
   padding: 20px;
   margin: 0 auto;
 }
-.q2__content__image__1 {
+.q2__content__image__left {
   margin-right: 20px;
   margin-bottom: 10px;
   float: left;
 }
-.q2__content__image__2 {
-  padding-left: 20px;
-  padding-bottom: 10px;
+.q2__content__image__right {
+  margin-left: 20px;
+  margin-bottom: 10px;
   float: right;
 }
 .q2__content__text {
