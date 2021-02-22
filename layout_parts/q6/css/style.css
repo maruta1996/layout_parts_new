@@ -1,20 +1,19 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q6__1 {
+  width: 90px;
+  background-color: #e6f2ff;
+  padding: 10px 0;
+}
 .q6__1__box__inner {
   text-align: center;
 }
-.q6__1__text__align {
-  width: 90px;
-  background-color: #e6f2ff;
-  padding: 10px 0;
+.is__text__align {
   display: inline-block;
 }
-.q6__1__margin {
-  width: 90px;
-  background-color: #e6f2ff;
-  padding: 10px 0;
-  margin: auto;
+.is__margin {
+  margin: 0 auto;
   text-align: center;
 }
 
