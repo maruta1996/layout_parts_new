@@ -8,7 +8,7 @@
   margin: 0 auto;
   position: relative;
 }
-.one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+.cell{
   width: 100px;
   height: 100px;
   position: absolute;
@@ -62,7 +62,6 @@
   left: 120px;
   background-color: #de70cf;
   z-index: 8;
-  position: relative;
 }
 .eight::after {
   width: 20px;
