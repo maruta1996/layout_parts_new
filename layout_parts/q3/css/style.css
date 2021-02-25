@@ -7,7 +7,8 @@
   table-layout: fixed;
 }
 /* セル全体 */
-.q3__content__table tr th, .q3__content__table tr td {
+.q3__content__table tr th, 
+.q3__content__table tr td {
   padding: 10px 0;
   border: 1px solid #dedede;
   text-align: center;
