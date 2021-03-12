@@ -12,7 +12,8 @@
   transition: all 0.5s ease;
 }
 .q8__1__mask {
-  width: auto;
+  width: 100%;
+  height: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -21,16 +22,22 @@
 }
 .q8__1__container:hover .q8__1__mask {
   opacity: 1;
-  transition: all 0.5s ease;
-  padding-bottom: 20px;
+  transition: all 0.5s;
   background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,8));
 }
 .q8__1__text {
   font-size: 16px;
   line-height: 16px;
   color: white;
-  margin: 0 20px;
+  margin:0 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   word-break: break-all;
+}
+.q8__1__container:hover .q8__1__text {
+  transition: all 0.5s;
+  padding-bottom: 20px;
 }
 
 .q8__2__loader {
