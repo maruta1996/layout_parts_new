@@ -6,12 +6,13 @@
   content: "";
   clear: both;
 }
-.q7__1 *  {
+.q7__1__text {
   width: 205px;
   float: left;
+  margin-left: 50px;
 }
-.float__left {
-  margin-right: 50px;
+.q7__1__text:first-child {
+  margin-left: 0;
 }
 
 .q7__2__table {
