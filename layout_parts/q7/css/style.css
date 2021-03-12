@@ -6,11 +6,13 @@
   content: "";
   clear: both;
 }
+
 .q7__1__text {
   width: 205px;
   float: left;
   margin-left: 50px;
 }
+
 .q7__1__text:first-child {
   margin-left: 0;
 }
@@ -18,12 +20,14 @@
 .q7__2__table {
   display: table;
 }
+
 .q7__2__table__cell {
   width: 225px;
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
 }
+
 .q7__2__table__cell:first-child {
   padding: 0;
 }
@@ -31,6 +35,7 @@
 .q7__3__inline {
   font-size: 0;
 }
+
 .q7__3__inline__block {
   width: 225px;
   font-size: 16px;
@@ -39,6 +44,7 @@
   vertical-align: middle;
   box-sizing: border-box;
 }
+
 .q7__3__inline__block:first-child {
   margin-left: 0;
 }
@@ -48,19 +54,23 @@
   align-items: flex-end;
   justify-content: space-around;
 }
+
 .q7__4__flex__cell {
   width: 225px;
   box-sizing: border-box;
 }
+
 .q7__5 {
   font-size: 0;
 }
+
 .inline__left {
   font-size: 16px;
   vertical-align: top;
   width: 300px;
   display: inline-block;
 }
+
 .inline__right {
   font-size: 16px;
   vertical-align: top;
