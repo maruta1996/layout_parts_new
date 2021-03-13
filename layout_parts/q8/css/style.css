@@ -1,46 +1,54 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q8__1__container {
+.q8__container {
   width: 500px;
+  height: 100%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 }
-.q8__1__container:hover .q8__1__image {
+
+.q8__container:hover .q8__image {
   transform: scale(1.5,1.5);
   transition: all 0.5s ease;
 }
-.q8__1__mask {
+
+.q8__mask {
   width: 100%;
   height: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -100%;
   left: 0;
   opacity: 0;
-  background-color: rgba(0,0,0,0);
-}
-.q8__1__container:hover .q8__1__mask {
-  opacity: 1;
   transition: all 0.5s;
   background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,8));
 }
-.q8__1__text {
+
+.q8__container:hover .q8__mask {
+  opacity: 1;
+  bottom: 0;
+  left: 0;
+}
+
+.q8__text {
   font-size: 16px;
   line-height: 16px;
-  color: white;
-  margin:0 20px;
+  color: #fff;
+  padding: 0 20px;
   position: absolute;
   bottom: 0;
   left: 0;
   word-break: break-all;
 }
-.q8__1__container:hover .q8__1__text {
+
+.q8__container:hover .q8__text {
   transition: all 0.5s;
   padding-bottom: 20px;
 }
 
-.q8__2__loader {
+.q8__loader {
   width: 100px;
   height: 100px;
   margin: 0 auto;
@@ -49,6 +57,7 @@
   border-top-color: #00bcd4;
   animation: spin 1.1s linear infinite;
 }
+
 @keyframes spin {
   0% { transform: rotate(0deg);}
   25% { transform: rotate(90deg);}
