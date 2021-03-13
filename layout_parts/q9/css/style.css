@@ -13,20 +13,18 @@
 }
 .q9__text::before {
   position: absolute;
-  bottom: -38px;
-  left: 30px;
-  border: 20px solid transparent;
-  border-top: 20px solid white;
-  z-index: 2;
-  content: "";
-}
-.q9__text::after {
-  position: absolute;
   bottom: -45px;
   left: 30px;
   border: 20px solid transparent;
   border-top: 20px solid #222;
-  z-index: 1;
+  content: "";
+}
+.q9__text::after {
+  position: absolute;
+  bottom: -38px;
+  left: 30px;
+  border: 20px solid transparent;
+  border-top: 20px solid #fff;
   content: "";
 }
 /* 回答はここに書いてね */
