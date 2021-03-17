@@ -10,6 +10,10 @@
   cursor: pointer;
 }
 
+.q8__image {
+  transition: all 0.5s;
+}
+
 .q8__container:hover .q8__image {
   transform: scale(1.5,1.5);
   transition: all 0.5s ease;
