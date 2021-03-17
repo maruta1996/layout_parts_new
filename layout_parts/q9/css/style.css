@@ -12,21 +12,21 @@
   position: relative;
 }
 
-.q9__text::before {
+.q9__text::before, 
+.q9__text::after {
   position: absolute;
-  bottom: -45px;
   left: 30px;
   border: 20px solid transparent;
-  border-top: 20px solid #222;
   content: "";
 }
 
+.q9__text::before {
+  bottom: -45px;
+  border-top: 20px solid #222;
+}
+
 .q9__text::after {
-  position: absolute;
   bottom: -38px;
-  left: 30px;
-  border: 20px solid transparent;
   border-top: 20px solid #fff;
-  content: "";
 }
 /* 回答はここに書いてね */
