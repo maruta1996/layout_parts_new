@@ -11,6 +11,7 @@
   padding: 20px;
   position: relative;
 }
+
 .q9__text::before {
   position: absolute;
   bottom: -45px;
@@ -19,6 +20,7 @@
   border-top: 20px solid #222;
   content: "";
 }
+
 .q9__text::after {
   position: absolute;
   bottom: -38px;
